@@ -1,0 +1,3 @@
+# VBScript On Error Resume Next masking errors
+
+This example demonstrates a common issue in VBScript where `On Error Resume Next` hides errors, making debugging difficult. The `GetValue` function attempts to set a value and then retrieve it.  If an error occurs during `SetValue`, it's silently ignored due to `On Error Resume Next`, leading to an incorrect return value or unexpected program behavior.  The solution shows how to handle errors more effectively, providing informative error messages.
